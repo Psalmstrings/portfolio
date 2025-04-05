@@ -221,7 +221,8 @@ nav ul li a:hover {
     margin-bottom: 1.5rem;  
     color: #555;
     font-weight:600; 
-    font-size: 18px; 
+    font-size: 18px;
+    text-align: justify; 
 }  
 
 .skills {  
@@ -386,20 +387,37 @@ footer {
 .copyright {  
     font-size: 0.9rem;  
     opacity: 0.8;  
+} 
+.project-links2 {  
+    display: flex;  
+    gap: 1rem;  
 }  
 
 /* Responsive Design */  
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
+    header{
+        padding: 0;  
+    }  
     .header-container {  
-        padding: 0 1rem;  
+        padding: 0;  
     }  
     .logo img{
         width: 170px;
-        margin-top: 20px;
+        margin-top: 10px;
     } 
+    .btn1{
+        margin-bottom: 20px;
+    }
     .hamburger {  
         display: block;  
-    }  
+    } 
+    .project-links2 {  
+        display: block;  
+        gap: 1rem; 
+    } 
+    #insta{
+        margin-top: 20px;
+    } 
 
     nav {  
         position: fixed;  
